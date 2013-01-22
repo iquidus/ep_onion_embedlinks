@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git://github.com/iquidus/ep_onion_embedlinks.git"
   },
-  "dependacies": {
+  "dependencies": {
     "ep_etherpad-lite": ">= 1.2.5"
   },
   "engines": {
