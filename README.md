@@ -12,8 +12,8 @@ Requires at least Etherpad lite version 1.2.5 and the following added to your se
 
 With your own domain and onion address, of course.
 
-Screenshots:
+##Screenshots:
 
-<img src=http://i.imgur.com/3BJvZBd.png>
-<img src=http://i.imgur.com/YI6TA7s.png>
-<img src=http://i.imgur.com/fwJBjWq.png>
+<img src=http://i.imgur.com/3BJvZBd.png>  
+<img src=http://i.imgur.com/YI6TA7s.png>  
+<img src=http://i.imgur.com/fwJBjWq.png>  
