@@ -1,0 +1,10 @@
+#onioninput {
+  margin-right: 5px;
+  display: inline-block; 
+}
+#onion-label {
+	display: block;
+    margin-left: 20px;
+    margin-right: 8px;
+    float: right;
+}

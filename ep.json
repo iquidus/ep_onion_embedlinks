@@ -1,0 +1,13 @@
+{
+  "parts" : [
+    {
+      "name":"ep_onion_embedlinks",
+      "hooks":{
+        "eejsBlock_scripts":"ep_onion_embedlinks/index:eejsBlock_scripts",
+        "eejsBlock_embedPopup":"ep_onion_embedlinks/index:eejsBlock_embedPopup",
+        "eejsBlock_styles":"ep_onion_embedlinks/index:eejsBlock_styles",
+        "clientVars":"ep_onion_embedlinks/index:clientVars"
+      }
+    }
+  ]
+}
