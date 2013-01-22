@@ -7,12 +7,12 @@ exports.eejsBlock_scripts = function(hook_name, args, cb){
 }
 
 exports.eejsBlock_embedPopup = function(hook_name, args, cb){
-  args.content = '<div><label id="onion-label"><input type="checkbox" id="onioninput"/>.onion</label></div>' + args.content;
+  args.content = eejs.require("ep_onion_embedlinks/templates/onionCheckbox.ejs") + args.content;
   return cb();
 }
 
 exports.eejsBlock_styles = function (hook_name, args, cb){
-  args.content = args.content + '<link href="../static/plugins/ep_onion_embedlinks/static/css/checkboxen.css" rel="stylesheet">';
+  args.content = args.content + eejs.require("ep_onion_embedlinks/templates/styles.ejs");
   return cb();
 }
 
@@ -33,6 +33,6 @@ exports.clientVars = function(hook, context, callback){
     console.warn("ep_onion_embedlinks: onion has not been set in your settings.json")
     var onion = "";
   }
-  return callback({ "obl_onion": onion, "obl_domain": domain });
+  return callback({ "oel_onion": onion, "oel_domain": domain });
 };
 

@@ -1,6 +1,6 @@
 {
   "name": "ep_onion_embedlinks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds a check box to the embed link page that toggles between a normal domain and an onion address",
   "author": {
     "name": "Luke Williams",

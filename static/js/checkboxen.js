@@ -6,11 +6,11 @@ function setEmbedLinks_onion(){
         padurl = basePath + "/p/" + clientVars.readOnlyId;
         mode = 'readonly';
     }
-    var re = new RegExp(clientVars.obl_onion,"g");
-    var str = clientVars.obl_domain;
+    var re = new RegExp(clientVars.oel_onion,"g");
+    var str = clientVars.oel_domain;
     if ($('#onioninput').is(':checked')) { 
-      re = new RegExp(clientVars.obl_domain,"g");
-      str = clientVars.obl_onion;
+      re = new RegExp(clientVars.oel_domain,"g");
+      str = clientVars.oel_onion;
     } 
     padurl = padurl .replace(re, str);  
     $('#embedinput').val("<iframe name='embed_" + mode + "' src='" + padurl + "?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false' width=600 height=400></iframe>");
