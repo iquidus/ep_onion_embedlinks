@@ -1,7 +1,7 @@
 {
   "name": "ep_onion_embedlinks",
   "version": "1.0.0",
-  "description": "Adds a check box to the embed link page that switches between a normal domain and an onion address",
+  "description": "Adds a check box to the embed link page that toggles between a normal domain and an onion address",
   "author": {
     "name": "Luke Williams",
     "email": "xocel@iquidus.org"
@@ -11,7 +11,9 @@
     "type": "git",
     "url": "git://github.com/iquidus/ep_onion_embedlinks.git"
   },
-  "dependacies": {},
+  "dependacies": {
+    "ep_etherpad-lite": ">= 1.2.5"
+  },
   "engines": {
     "node": "*"
   }
